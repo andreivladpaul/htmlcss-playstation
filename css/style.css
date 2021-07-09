@@ -3,6 +3,40 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  font-family: helvetica, arial, sans-serif;
+}
+
+.debug {
+  width: 100%;
+  height: 100px;
+  border: 2px solid red;
+  background-color: chartreuse;
+}
+
+/* COMMON  */
+.text-white {
+  color: white;
+}
+
+.text-blue {
+  color: #2284d4;
+}
+
+.text-grey {
+  color: grey;
+}
+
+.ms-w-95 {
+  width: 95%;
+}
+
+/* NAV BAR  */
+.nav-padding {
+  padding: 0;
+}
+
 /* BANNER SONY  */
 .sony {
   height: 40px;
@@ -13,15 +47,123 @@
   height: 100%;
   line-height: 40px;
 }
+/* ----------------------------------------------- */
 
 /* BUTTONS  */
 .ms-btn {
-  padding: 5px 20px;
+  padding: 15px 20px;
   border-radius: 50px;
   border: 0;
+  max-width: 200px;
 }
 
 .grey {
   background-color: #363636;
   color: white;
+}
+
+.orange {
+  color: white;
+  background-color: #cd3d0f;
+}
+
+.blue {
+  background-color: #2d64e6;
+  color: white;
+}
+/* JUMBO  */
+.jumbo {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  background-image: url(../img/jumbo-bg.png);
+  background-size: cover;
+  background-position: top center;
+}
+
+.logo {
+  width: 20%;
+  height: 10%;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+.subtitle {
+  width: 20%;
+}
+
+/* CARDS GAMES  */
+#games-icons {
+  height: 100%;
+  margin-top: 20px;
+}
+.card-game {
+  height: 80px;
+}
+
+.card-game img {
+  width: 100%;
+  border-radius: 50px;
+}
+
+/* PLAYSTATION 5  */
+#play5 {
+  height: 100%;
+  margin-top: 200px;
+}
+
+.ms-row {
+  display: flex;
+}
+
+.row-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ms-right {
+  width: 50%;
+}
+
+.play-item {
+  width: calc(100% / 5);
+  height: calc(100% / 5 - 2px);
+  padding: 40px;
+}
+
+.play-item:hover img {
+  margin-bottom: 2px solid #0072ce;
+  cursor: pointer;
+}
+
+.play-item img {
+  width: 100%;
+  height: 100%;
+}
+
+.subtitle-item {
+  text-decoration: none;
+}
+/* ------------------------------------  */
+/* IT TAKES TWO  */
+.takes-2 {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+  background-size: cover;
+  background-position: top center;
+}
+
+.it-takes-2-logo {
+  width: 20%;
+  height: 30%;
+}
+
+.it-takes-2-logo img {
+  width: 100%;
+  height: 100%;
 }
