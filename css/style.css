@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* BANNER SONY  */
+.sony {
+  height: 40px;
+  background-color: black;
+}
+
+.sony img {
+  height: 100%;
+  line-height: 40px;
+}
+
+/* BUTTONS  */
+.ms-btn {
+  padding: 5px 20px;
+  border-radius: 50px;
+  border: 0;
+}
+
+.grey {
+  background-color: #363636;
+  color: white;
+}
