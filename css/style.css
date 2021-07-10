@@ -9,6 +9,10 @@ body {
   font-family: helvetica, arial, sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .debug {
   width: 100%;
   height: 50px;
@@ -56,6 +60,7 @@ body {
 
 /* BUTTONS  */
 .ms-btn {
+  text-decoration: none;
   padding: 15px 20px;
   border-radius: 50px;
   border: 0;
@@ -180,6 +185,11 @@ body {
   height: 100%;
 }
 
+/* PLAYSTATION 4 */
+.card-with {
+  width: calc(100% / 3);
+}
+
 /* ----------------------------------------------------- */
 /* MEDIA QUERY  */
 @media screen and (max-width: 1110px) {
@@ -218,6 +228,15 @@ body {
   .it-takes-2-logo {
     width: 70%;
   }
+  .row-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-width {
+    width: 100%;
+  }
 }
 /* SMALL  */
 @media screen and (min-width: 576px) and (max-width: 768px) {
@@ -234,6 +253,16 @@ body {
   }
   .title {
     width: 80%;
+  }
+
+  .row-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-width {
+    width: 100%;
   }
 }
 
