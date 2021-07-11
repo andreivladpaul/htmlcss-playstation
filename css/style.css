@@ -44,6 +44,10 @@ a {
   background-color: #bebcbb;
 }
 
+.bg-dark-blue {
+  background-color: #161c3b;
+}
+
 /* NAV BAR  */
 .nav-padding {
   padding: 0;
@@ -78,6 +82,10 @@ a {
 .grey-blue {
   background-color: #d9dadc;
   color: #2d64e6;
+}
+.white-black {
+  background-color: #f5f5f5;
+  color: black;
 }
 
 .orange {
