@@ -109,8 +109,7 @@ a {
 }
 
 .logo {
-  width: 20%;
-  height: 6%;
+  width: 100%;
 }
 
 .logo img {
@@ -229,9 +228,7 @@ a {
 }
 /* ------------------------------------------------- */
 /* SEZIONE SOCIAL  */
-.all-social {
-  justify-content: center;
-}
+
 .card-social {
 }
 
@@ -259,7 +256,7 @@ a {
   background-color: #00439c;
 }
 .logo-footer {
-  width: 100px;
+  width: 150px;
 }
 .footer-menu {
   display: flex;
@@ -290,18 +287,6 @@ a {
 }
 /* XS  */
 @media screen and (min-width: 0px) and (max-width: 576px) {
-  .logo {
-    width: 70%;
-    height: 10%;
-  }
-
-  .subtitle {
-    width: 100%;
-  }
-
-  .it-takes-2-logo {
-    width: 70%;
-  }
   .row-cards {
     display: flex;
     flex-direction: column;
@@ -324,21 +309,6 @@ a {
 }
 /* SMALL  */
 @media screen and (min-width: 576px) and (max-width: 768px) {
-  .logo {
-    width: 70%;
-    height: 10%;
-  }
-
-  .subtitle {
-    width: 90%;
-  }
-  .it-takes-2-logo {
-    width: 60%;
-  }
-  .title {
-    width: 80%;
-  }
-
   .row-cards {
     display: flex;
     flex-direction: column;
@@ -370,17 +340,6 @@ a {
 
 /* MEDIUM  */
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  .logo {
-    width: 40%;
-    height: 8%;
-  }
-
-  .subtitle {
-    width: 80%;
-  }
-  .it-takes-2-logo {
-    width: 60%;
-  }
   .text-p-plus {
     width: 40%;
   }
@@ -398,19 +357,6 @@ a {
 }
 /* LARGE  */
 @media screen and (min-width: 991px) {
-  .logo {
-  }
-
-  .subtitle {
-    width: 30%;
-  }
-  .it-takes-2-logo {
-    width: 30%;
-  }
-  .title {
-    width: 30%;
-  }
-
   .text-p-plus {
     width: 50%;
   }
