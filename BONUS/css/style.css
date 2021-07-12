@@ -1,0 +1,440 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 100vw;
+  font-family: helvetica, arial, sans-serif;
+}
+
+/* DEBUG  */
+.debug {
+  width: 100%;
+  height: 50px;
+  border: 2px solid red;
+  background-color: chartreuse;
+}
+
+/* COMMON  */
+a {
+  text-decoration: none;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-blue {
+  color: #2284d4;
+}
+
+.text-grey {
+  color: grey;
+  text-decoration: none;
+}
+
+.ms-w-95 {
+  width: 95%;
+}
+
+.bg-grey {
+  background-color: #252525;
+}
+.bg-light-grey {
+  background-color: #bebcbb;
+}
+
+.bg-dark-blue {
+  background-color: #161c3b;
+}
+
+/* NAV BAR  */
+.nav-padding {
+  padding: 0;
+}
+
+.arrow-down {
+  width: 10px;
+}
+.item-right {
+  line-height: 50px;
+}
+
+/* BANNER SONY  */
+.sony {
+  height: 40px;
+  background-color: black;
+}
+
+.sony img {
+  height: 100%;
+  line-height: 40px;
+}
+
+/* SUB MENU  */
+.sub-menu {
+  position: absolute;
+  bottom: 0px;
+  top: 100%;
+  height: 200px;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: white;
+  display: none;
+}
+
+.nav-item:hover .sub-menu {
+  display: block;
+}
+
+.menu-hardware {
+  position: absolute;
+  left: -200px;
+}
+.sub-menu-icons {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.ul-sub-menu ul {
+  display: flex;
+}
+
+/* ----------------------------------------------- */
+
+/* BUTTONS  */
+.ms-btn {
+  text-decoration: none;
+  padding: 15px 20px;
+  border-radius: 50px;
+  border: 0;
+  max-width: 250px;
+}
+
+.grey {
+  background-color: #363636;
+  color: white;
+}
+
+.grey-blue {
+  background-color: #d9dadc;
+  color: #2d64e6;
+}
+.white-black {
+  background-color: #f5f5f5;
+  color: black;
+}
+
+.orange {
+  color: white;
+  background-color: #cd3d0f;
+}
+
+.blue {
+  background-color: #2d64e6;
+  color: white;
+}
+/* ------------------------------------  */
+/* JUMBO  */
+.jumbo {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  background-image: url(../img/jumbo-bg.png);
+  background-size: cover;
+  background-position: top center;
+}
+
+.logo {
+  width: 100%;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+.subtitle {
+  width: 20%;
+}
+/* ------------------------------------  */
+/* CARDS GAMES  */
+#games-icons {
+  height: 100%;
+  margin-top: 20px;
+}
+.card-game {
+  width: 100%;
+  height: 100%;
+}
+
+.border-b:hover {
+  border-bottom: 2px solid #2d64e6;
+}
+
+.card-game img {
+  width: 100%;
+  border-radius: 50px;
+}
+
+.border-round {
+  border: 2px solid #2d64e6;
+  border-radius: 60px;
+}
+
+.hvr-float {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-float:hover,
+.hvr-float:focus,
+.hvr-float:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+/* ------------------------------------  */
+/* PLAYSTATION 5  */
+
+.ms-row {
+  max-width: 100%;
+  display: flex;
+}
+
+.row-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ms-right {
+  width: 50%;
+}
+
+#playstation-img {
+  width: 100%;
+}
+
+.subtitle-item::hover {
+  margin-bottom: 2px solid #0072ce;
+  cursor: pointer;
+}
+
+.play-item img {
+  width: 100%;
+  height: 100%;
+}
+
+.subtitle {
+  text-decoration: #0072ce;
+}
+
+.item-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* ------------------------------------  */
+/* IT TAKES TWO  */
+.takes-2 {
+  position: relative;
+  width: 100%;
+  height: 800px;
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+  background-size: cover;
+  background-position: top center;
+}
+
+.it-takes-2-logo img {
+  width: 100%;
+  height: 100%;
+}
+
+/* PLAYSTATION 4 */
+.card-with {
+  width: calc(100% / 3);
+}
+
+/* PLAYSTATION PLUS  */
+
+.img-p-plus img {
+  width: 100%;
+  height: 100%;
+}
+
+.logo-p-plus img {
+  width: 100%;
+}
+/* ------------------------------------------------- */
+/* NUOVI SCONTI  */
+.nuovi-sconti {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+.nuovi-sconti img {
+  width: 100%;
+  height: 100%;
+}
+/* ------------------------------------------------- */
+/* SEZIONE SOCIAL  */
+
+.card-social {
+}
+
+.card-social img {
+  width: 100%;
+  height: 100%;
+}
+
+.footer-section {
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+}
+.footer-section a {
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+.globe-footer {
+  width: 20px;
+}
+/* ----------------------------------------------------- */
+
+/* FOOTER  */
+.bg-footer {
+  background-color: #00439c;
+}
+.logo-footer {
+  width: 150px;
+}
+.footer-menu {
+  display: flex;
+}
+
+/* MEDIA QUERY  */
+@media screen and (max-width: 1110px) {
+  .play-item {
+    width: calc(100% / 3);
+  }
+
+  .play5-presents {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row-left,
+  .row-right {
+    width: 100%;
+  }
+
+  .row-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 50px;
+  }
+}
+/* XS  */
+@media screen and (min-width: 0px) and (max-width: 576px) {
+  .subtitle-item {
+    display: none;
+  }
+  .row-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-width {
+    width: 100%;
+  }
+  .img-p-plus {
+    display: none;
+  }
+
+  .footer-text {
+    width: 100%;
+  }
+  .footer-menu {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/* SMALL  */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .subtitle-item {
+    display: none;
+  }
+  .row-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-width {
+    width: 100%;
+  }
+  .text-p-plus {
+    width: 100%;
+  }
+
+  .img-p-plus {
+    display: none;
+  }
+
+  .logo-p-plus {
+    width: 60%;
+  }
+  .footer-text {
+    width: 100%;
+  }
+  .footer-menu {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* MEDIUM  */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .text-p-plus {
+    width: 40%;
+  }
+
+  .img-p-plus {
+    width: 60%;
+  }
+
+  .logo-p-plus {
+    width: 70%;
+  }
+  .footer-text {
+    width: 100%;
+  }
+}
+/* LARGE  */
+@media screen and (min-width: 991px) {
+  .text-p-plus {
+    width: 50%;
+  }
+
+  .img-p-plus {
+    width: 50%;
+  }
+
+  .logo-p-plus {
+    width: 40%;
+  }
+  .footer-text {
+    width: 50%;
+  }
+}
