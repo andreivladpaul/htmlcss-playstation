@@ -9,10 +9,7 @@ body {
   font-family: helvetica, arial, sans-serif;
 }
 
-a {
-  text-decoration: none;
-}
-
+/* DEBUG  */
 .debug {
   width: 100%;
   height: 50px;
@@ -21,6 +18,10 @@ a {
 }
 
 /* COMMON  */
+a {
+  text-decoration: none;
+}
+
 .text-white {
   color: white;
 }
@@ -31,6 +32,7 @@ a {
 
 .text-grey {
   color: grey;
+  text-decoration: none;
 }
 
 .ms-w-95 {
@@ -51,6 +53,13 @@ a {
 /* NAV BAR  */
 .nav-padding {
   padding: 0;
+}
+
+.arrow-down {
+  width: 10px;
+}
+.item-right {
+  line-height: 50px;
 }
 
 /* BANNER SONY  */
@@ -130,16 +139,21 @@ a {
   height: 100%;
 }
 
+.border-b:hover {
+  border-bottom: 2px solid #2d64e6;
+}
+
 .card-game img {
   width: 100%;
   border-radius: 50px;
 }
+
+.border-round {
+  border: 2px solid #2d64e6;
+  border-radius: 60px;
+}
 /* ------------------------------------  */
 /* PLAYSTATION 5  */
-#play5 {
-  height: 100%;
-  margin-top: 100px;
-}
 
 .ms-row {
   max-width: 100%;
@@ -160,12 +174,6 @@ a {
   width: 100%;
 }
 
-.play-item {
-  width: calc(100% / 5);
-  height: calc(100% / 5 - 2px);
-  padding: 40px;
-}
-
 .subtitle-item::hover {
   margin-bottom: 2px solid #0072ce;
   cursor: pointer;
@@ -176,8 +184,8 @@ a {
   height: 100%;
 }
 
-.subtitle-item {
-  text-decoration: none;
+.subtitle {
+  text-decoration: #0072ce;
 }
 
 .item-list {
@@ -287,6 +295,9 @@ a {
 }
 /* XS  */
 @media screen and (min-width: 0px) and (max-width: 576px) {
+  .subtitle-item {
+    display: none;
+  }
   .row-cards {
     display: flex;
     flex-direction: column;
@@ -299,6 +310,7 @@ a {
   .img-p-plus {
     display: none;
   }
+
   .footer-text {
     width: 100%;
   }
@@ -309,6 +321,9 @@ a {
 }
 /* SMALL  */
 @media screen and (min-width: 576px) and (max-width: 768px) {
+  .subtitle-item {
+    display: none;
+  }
   .row-cards {
     display: flex;
     flex-direction: column;
