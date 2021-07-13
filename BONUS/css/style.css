@@ -58,8 +58,33 @@ a {
 .arrow-down {
   width: 10px;
 }
+.arrow-up {
+  display: none;
+}
 .item-right {
-  line-height: 50px;
+  line-height: 70px;
+}
+.item-color {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.55);
+}
+.item-color:hover,
+.item-color:focus,
+.item-color:active {
+  color: #00439c;
+}
+.item-color:hover path,
+.item-color:focus path,
+.item-color:active path {
+  fill: #00439c;
+}
+
+.item-color:focus .arrow-down {
+  display: none;
+}
+
+.item-color:focus .arrow-up {
+  display: inline-block;
 }
 
 /* BANNER SONY  */
@@ -84,10 +109,6 @@ a {
   width: 100%;
   background-color: white;
   display: none;
-}
-
-.nav-item a:hover {
-  color: red;
 }
 
 .menu-hardware {
@@ -286,9 +307,6 @@ a {
 }
 /* ------------------------------------------------- */
 /* SEZIONE SOCIAL  */
-
-.card-social {
-}
 
 .card-social img {
   width: 100%;
